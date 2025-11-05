@@ -4,11 +4,7 @@ from .models import Warga, Pengaduan
 from .forms import WargaForm, PengaduanForm
 from rest_framework.generics import ListAPIView, CreateAPIView, RetrieveAPIView
 from .serializers import WargaSerializer    
-from django.views.generic import ListView
-from django.views.generic import DetailView
-from django.views.generic import CreateView
-from django.views.generic import UpdateView
-from django.views.generic import DeleteView
+from django.views.generic import ListView,DetailView,CreateView,UpdateView,DeleteView
 
 # Create your views here.
 
