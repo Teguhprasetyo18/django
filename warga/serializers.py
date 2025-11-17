@@ -1,6 +1,6 @@
 # warga/serializers.py
 from rest_framework import serializers
-from .models import Warga
+from .models import Warga, pengaduan
 
 class WargaSerializer(serializers.ModelSerializer):
     class Meta:
